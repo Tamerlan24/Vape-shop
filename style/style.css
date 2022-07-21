@@ -1,0 +1,134 @@
+body {
+    color: #C3BBBB;
+    font-family: 'Roboto', sans-serif;
+    background-color: #1A1C28;
+    margin: 0;
+    padding: 0;
+}.main {
+    width: 1200px;
+    margin: 0 auto;
+}
+.header {
+    width: 1200px;
+    height: 116px;
+    margin: 0 auto;
+}.header_links {
+    display: flex;
+    justify-content: space-between;
+}
+.link {
+    margin-top: 58px;
+    margin-bottom: 58px;
+    text-decoration: none;
+    color: #C3BBBB;
+    font-size: 48px;
+    transition: 0.6s;
+}.link:hover {
+    transition: 0.6s;
+    text-decoration: underline #f1f1f1;
+    
+}
+
+.pageN1 {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/page1_bc.jpg) ;
+    background-repeat: repeat-x;
+}.page1_title {
+    margin: 0;
+    padding: 0;
+    margin-left: 355px; 
+    font-size: 42px;
+    position: absolute;
+    margin-top: 150px;
+}
+
+.smoking_man_img {
+    
+    float: right;
+    width: 720px;
+    height: 720px;
+    border-radius: 100%;
+   margin-right: 200px;
+}
+.page1_btn {
+    margin-left: 345px;
+    margin-top: 500px;
+    color: #f1f1f1;
+    font-size: 48px;
+    background-color: #262626;
+    padding: 52px 133px;
+    border: 1px solid #262626;
+    border-radius: 100px;
+    transition: 0.4s;
+    cursor: pointer;
+}.page1_btn:hover {
+    background-color: #f1f1f1;
+    color: #262626;
+    transition: 0.4s;
+}
+
+
+
+
+/* PAGE 2 */
+.pageN2 {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/Vape-Smoke.svg);
+    background-repeat: repeat-x;
+}.about_us {
+    font-size: 64px;
+    text-align: center;
+    margin: 0px;
+    padding-top: 150px;
+}.about_us_text {
+    font-size: 36px;
+    margin-top: 150px;
+    text-align: center;
+}
+/* PAGE 3 */
+.pageN3 {
+    margin: 0;
+    width: 100vw;
+    height: 845px;
+}.Rewiews {
+    font-size: 36px;
+    text-align: center;
+    margin: 0px;
+    padding-top: 150px;
+}
+
+
+.rewiews {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.call_btn {
+    background-color: #699939;
+    border-radius: 33px;
+    font-size: 32px;
+    padding: 30px 92px;
+    border: none;
+    cursor: pointer;
+    margin-left: 35%;
+    margin-top: 110px;
+    transition: 0.4s;
+}.call_btn:hover {
+    transition: 0.4s;
+    background-color: #000;
+    color: #699939;
+}.avatar {
+    border-radius: 100px;
+}
+
+
+/* footer */
+.footer {
+    width: 100vw;
+    height: 160px;
+    background-color: #C3BBBB;
+    
+}
